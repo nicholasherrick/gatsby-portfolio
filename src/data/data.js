@@ -1,10 +1,10 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
-  Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
-  SiteDescription: 'Front End Developer',
-  defaultDescription: 'Software engineer!', 
+  SiteTitle: "Nicholas Herrick",
+  Sitelogo: "#",
+  SiteLogoText: "Nicholas Herrick",
+  SiteAuthor: "Nicholas Herrick",
+  SiteDescription: "Front End Developer",
+  defaultDescription: "Software engineer!",
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name
@@ -40,21 +40,21 @@ module.exports = {
   }`,
   githubApiVariables: {
     number_of_repos: 12,
-  }, 
+  },
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    twitter: "https://twitter.com/iAmNickHerrick",
+    github: "https://github.com/nicholasherrick",
+    linkedin: "https://www.linkedin.com/in/nicholasherrick-dev/",
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'CurvaSud',
-    country: 'Morocco',
-    zipCode: 'ZipCode',
+    city: "Aurora",
+    region: "West",
+    country: "United States",
+    zipCode: "80013",
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
-    phone: 'phone number',
+    email: "nick@nicholasherrick.com",
+    phone: "7202999354",
   },
-  SiteCopyright: '2020',
-};
+  SiteCopyright: "2021",
+}

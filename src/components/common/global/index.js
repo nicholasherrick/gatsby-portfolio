@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components';
-import variables from "../../../data/variables";
-import './fonts.css';
+import { createGlobalStyle } from "styled-components"
+import variables from "../../../data/variables"
+import "./fonts.css"
 
 export const GlobalStyle = createGlobalStyle`
   // normalize
@@ -152,6 +152,35 @@ export const GlobalStyle = createGlobalStyle`
     transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1), background-color 0.2s ease-out, 
     -webkit-transform 1s cubic-bezier(0.19, 1, 0.22, 1);
   }
+}
+
+.line-height-reset {
+  margin-top: 2rem;
+}
+
+.bigger {
+  font-size 1.5rem;
+}
+
+.big-title {
+  font-size: 3rem;
+}
+
+.reset-margin {
+  margin-top: 0;
+  max-width: 50%;
+  @media(max-width: ${variables.breakpointPhone}) {
+    max-width: 100%;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.md-layout * img {
+  max-width: 100%;
 }
 
 .error__emoji {

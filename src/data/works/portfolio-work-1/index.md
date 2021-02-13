@@ -1,43 +1,48 @@
 ---
-title: League of Legends
-tags: ['Adobe xd', 'css', 'js', 'dashboard']
-category: mobile-ui
-image: './salty_egg.jpg'
-date: "2015-05-01T22:12:03.284Z"
-description: "League of Legends is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS. Inspired by Defense of the Ancients, the game follows a freemium model. The game was released on October 27, 2009"
+title: Warbler
+tags: ["Redux", "JWT", "Thunk", "Node"]
+category: Full Stack
+image: "./warbler.jpg"
+date: "2020-05-01T22:12:03.284Z"
+description: "Warbler is a full stack MERN application that is meant to be similar to twitter. Users are able to create accounts, and send “messages” to a timeline for all users to see. Users can delete messages and more features are in the works."
 ---
 
+# Warbler (twitter clone)
 
-Choose Your Champion
---------------------------
-Whether you like to dive straight into the fray, support your teammates, or something in between, there’s a spot for you on the Rift.
+Warbler is a browser based web application that allows users to sign up and create and edit messages on a global timeline that all users can see and respond to. This app uses a robust modern code base with the MERN stack that is built to be easily scalable.
 
-Assassin
+![Screenshot1](https://github.com/nicholasherrick/warbler/raw/master/warbler.jpg)
 
-![champion akali](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png#imgresponsive)
+## Mission
 
-Fighter
+The plan with Warbler was to have and advanced yet clean and organized code base that allows other developers to be able to jump in and quickly familiarize themselves the code base and easily add new features. The app is designed as a twitter clone with modern code and upgradeability in mind.
 
-![champion Yassuo](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png#imgresponsive)
+## Demo The App
 
-Mage
+- [Click Here](https://warbler-client-nh.herokuapp.com/) to view the application on heroku
+- Live Credentials:
+  - email: email@example.com
+  - password: secret
 
-![champion lux](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/mage-3bfa6dfe620adafe5e539c2e470f4acc.png#imgresponsive)
+## Design
 
-support
+This app was designed to be clean and scalable. It uses an organized and intuitive folder structure to manage the vast code base required to utilize React with Redux alongside the back-end API. The app is written using modern asynchronous and/or promise based javascript wherever possible. The app features consistent and uniform error handling. Errors are managed by a single file in the back-end and managed in the redux global state on the front-end, allowing the app to display clear and specific error messages to the user. The code base is set up to easily expand features and be familiarized quickly with new Devs. The app also features in depth authentication and authorization methods with json web tokens, and even includes rehydration, allowing the user to stay authenticated, even if the server disconnects for any reason. The app makes use of bootstrap for a clean mobile responsive web page.
 
-![champion akali](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/support-d63ae08baf517425864ddc020a5871d5.png#imgresponsive)
+## Tools and Technologies
 
-I'm sure I'll write a lot more interesting things in the future.
+- Node
+- Express
+- React
+- Redux
+- Thunk
+- MongoDB
+- Mongoose
+- JWT
+- Bcrypt
+- Axios
+- Bootstrap
+- Moment
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+## Contributors
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
+- [Nicholas Herrick](https://github.com/nicholasherrick)

@@ -1,29 +1,58 @@
 ---
-title: portfolio-work-3
-date: "2015-05-06T23:46:37.121Z"
-category: backend development
-tags: ['Adobe xd', 'css', 'js', 'dashboard']
-image: './blog-image.jpg'
-description: "Not only that, but the second address field also caused them to split their input incorrectly in the address fields. This led to confusion and frustration among users."  
+title: StaySafe
+date: "2020-06-17T23:46:37.121Z"
+category: Mobile UI
+tags: ["Twilio", "Google Maps Geocoding", "Jest/Enzyme", "Node"]
+image: "./stay-safe.jpg"
+description: "StaySafe is a full stack MERN stack application that allows users to share their location with friends when in potentially dangerous situations. It provides multiple ways to call for help with the press of a button. The app is recommended for use on a mobile device."
 ---
 
-Have you ever filled out a form and froze on the address field? A [research study](https://baymard.com/blog/address-line-2) found that users come to a confusing stop when they encounter the “address line 2” field.
+# StaySafe Wherever You Go
 
-![double_address_fields](./blog-image.jpg)
+StaySafe is a browser based web application intended for use on mobile devices. Our application allows users to call for help on the go with ease, and keep tabs on their friends who are out and about.
 
-Not only that, but the second address field also caused them to split their input incorrectly in the address fields. This led to confusion and frustration among users.
+![Screenshot1](https://github.com/nicholasherrick/Project-Gamma/raw/master/src/assets/merged.jpg)  
+![Screenshot2](https://github.com/nicholasherrick/Project-Gamma/raw/master/src/assets/merged2.jpg)
 
-Labeling the second address field “Apartment/Suite/Other” did not resolve the issue. Users still came to a confusing stop and wondered whether the field was relevant for them.
+## Our Mission
 
-Familiarity Principle
----------------------
+Our plan for StaySafe was to design an application to help keep users safe in away from home scenarios, such as first dates, Craigslist encounters, or any potentially vulnerable or dangerous situation. The app allows users to update their location when on any kind of trip away from home. When a user begins a trip, a text message is sent to the user's friends notifying them the user's trip has begun. Friends of the user are able to view the user's last known location while they are on a trip by viewing their friends list. If anything goes wrong, the user can send out a text message to their friends list with the press of a button asking for either: an urgent phone call giving the user an excuse to leave, a request asking to be picked up at the user's current location, or a request asking emergency services to be contacted. The goal was for the app to be useful in a wide range of scenarios, allowing the user to call for help in a variety of ways with a single button press. The ease of use and powerful functionality of StaySafe is essential in a stressful situation.
 
-Having two address fields violates the principle of Familiarity that states the system should match the user’s real world expectations. When there’s a match, users can interpret the interface based on conventions they’re already familiar with.
+## Demo The App
 
-The second address field forces the user to type their address in the system’s preferred format, not the user’s. In the real world, users think of addresses as a single entity. Two text fields causes them to perceive their address as separate entities. Users don’t expect to see this which is why they get confused.
+[Click Here](https://stay-safe-fork.herokuapp.com/) to view the application on heroku (mobile device preferred)
+Live Credentials:
 
+- email: email@example.com
+- password: password
 
-Real World Expectations
------------------------
+## Design
 
-It’s important to design your form based on the user’s real world expectations. If you force users to rethink conventions in order to match the system, you’ll confuse and frustrate them. Don’t force the user to follow the system, force the system to follow the user.
+Our app features a mobile first design, with a color scheme that's pleasing to look at while allowing for appropriate contrast. To maintain our philosophy surrounding ease of use and simplicity most of the key functionality happens on the back-end. Our core functionality is easily accessible to the user with as few clicks as possible. While the app can certainly be used on a laptop or desktop computer, using a mobile device is strongly recommended for the situations in which this application is useful.
+
+## Tools and Technologies
+
+- Node
+- Express
+- React
+- MongoDB
+- Mongoose
+- Passport
+- Bcrypt
+- Twilio
+- Sendgrid
+- Axios
+- React Burger Menu
+- MDB React
+- Helmet
+- Google Maps Geocoding
+- Express-sslify
+- Morgan
+- Jest/Enzyme
+
+## Contributors
+
+- [Bradley Knutson](https://github.com/bradleyknutson)
+- [Nathaniel Anderson](https://github.com/Nathaniel-DU)
+- [Brittany Huber](https://github.com/bhuber23)
+- [Nicholas Herrick](https://github.com/nicholasherrick)
