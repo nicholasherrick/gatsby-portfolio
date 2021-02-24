@@ -49,7 +49,7 @@ const Experience = () => {
                   rel="noopener noreferrer"
                   aria-label={"visit website"}
                 >
-                  2U/Trilogy Education Services
+                  2u
                 </MediaLink>
               </Title>
             </div>
