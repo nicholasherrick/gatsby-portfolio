@@ -34,10 +34,10 @@ const Experience = () => {
               </Title>
             </div>
             <Text className="reset-margin">
-              Create Front-End components using React, Next, Redux, Sass,
-              GraphQL, etc. Attend weekly update meetings with the rest of the
-              dev team. Coordinate implementations with other developers across
-              the project.
+              Create scalable Front-End components & pages using React, Next,
+              Redux, Sass, GraphQL, etc. Attend weekly stand up meetings.
+              Coordinate implementations with CEO & developers on the enterprise
+              ecommerce application.
             </Text>
             <div className="flex">
               <SubTitle>Teaching Assistant</SubTitle>
@@ -54,11 +54,12 @@ const Experience = () => {
               </Title>
             </div>
             <Text className="reset-margin">
-              Assist students on their journey to become programmers during
-              their 6 month Full Stack Bootcamp program.
+              Assist students & instructor with coding curriculum & lessons
+              inside and outside of class. Host a weekly office hours sessions
+              with students.
             </Text>
             <div className="flex">
-              <SubTitle>Technical Consultant | Full Stack Developer</SubTitle>
+              <SubTitle>Freelance Consultant & Developer</SubTitle>
               <Title className="line-height-reset">
                 <MediaLink
                   className="lined-link bigger"
