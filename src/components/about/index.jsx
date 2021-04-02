@@ -66,11 +66,11 @@ const About = () => {
               <SubTitle>Technical Skills</SubTitle>
               <Text>
                 {" "}
-                <b className="text-primary lined-link">Languages:</b>{" "}
-                Javascript, JSX, PHP, C#, HTML, CSS <br />
+                <b className="text-primary lined-link">Languages:</b> Javascript
+                (ES6 and beyond!), HTML, CSS and just a little bit of C# and PHP{" "}
+                <br />
                 <b className="text-primary lined-link">Technologies:</b> React,
-                Redux, Next, Node, MongoDB, MySql, Git, JWT, GraphQL, SASS,
-                Laravel, Bootstrap, MaterialUI
+                Redux, Next, Node, MongoDB, MySql, Git, SASS
               </Text>
               <ResumeButton href="resume.pdf" target="_blank">
                 {" "}
