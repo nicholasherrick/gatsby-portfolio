@@ -70,7 +70,8 @@ const About = () => {
                 (ES6 and beyond!), HTML, CSS and just a little bit of C# and PHP{" "}
                 <br />
                 <b className="text-primary lined-link">Technologies:</b> React,
-                Redux, Next, Node, MongoDB, MySql, Git, SASS
+                Redux, Next, Node, MongoDB, MySql, Git, SASS, GraphQL,
+                Handlebars, jQuery, Bootstrap
               </Text>
               <ResumeButton href="resume.pdf" target="_blank">
                 {" "}
