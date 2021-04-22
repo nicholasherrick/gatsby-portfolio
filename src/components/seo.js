@@ -67,6 +67,11 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `image`,
+          property: `og:image`,
+          content: `https://flic.kr/ps/3WpkG3`,
+        },
       ].concat(meta)}
     />
   )
