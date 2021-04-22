@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `image`,
           property: `og:image`,
-          content: `https://flic.kr/ps/3WpkG3`,
+          content: `https://live.staticflickr.com/65535/51132392713_f6a9665d6e_z.jpg`,
         },
       ].concat(meta)}
     />
