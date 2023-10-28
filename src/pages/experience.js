@@ -20,7 +20,28 @@ const Experience = () => {
             <Title className="big-title">Experience</Title>
             <hr />
             <div className="flex">
-              <SubTitle>Front End Developer</SubTitle>
+              <SubTitle>Associate Software Developer</SubTitle>
+              <Title className="line-height-reset">
+                <MediaLink
+                  className="lined-link bigger"
+                  href={"https://myparadigm.com/"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={"visit website"}
+                >
+                  Paradigm
+                </MediaLink>
+              </Title>
+            </div>
+            <Text className="reset-margin">
+              Develop Front-End UI features and bugfixes for a wide range of customers with React, Redux, SASS, Bootstrap, Laravel, Docker, VSCode and Git and WSL.
+              Write comprehensive automated E2E & API tests with Playwright using Typescript and Postman.
+              Participate in daily standups and peer code review sessions with senior programmers.
+              Track tickets with Jira, coordinate development with PMs, Consultants and other Developers.
+              Build and deploy Docker containers to AWS & Microsoft Azure with Jenkins.
+            </Text>
+            <div className="flex">
+              <SubTitle>React UI Developer</SubTitle>
               <Title className="line-height-reset">
                 <MediaLink
                   className="lined-link bigger"
